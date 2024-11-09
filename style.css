@@ -1,0 +1,412 @@
+* {
+    font-family: 'Space Grotesk';
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.textStyleRegular18 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.textStyleRegular20 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.textStyleMedium20 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.textStyleMedium30 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.textStyleMedium60 {
+    font-weight: 500;
+    font-size: 60px;
+}
+
+body {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navul {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+.navButton {
+    display: flex;
+    border-radius: 14px;
+    border: 1px #191A23 solid;
+    padding: 20px 35px;
+}
+
+#aboutUs div p:first-child {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+
+
+}
+
+#aboutUs div p:nth-child(2) {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#aboutUs div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#aboutUs {
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.bookAConsultation {
+    background-color: #191A23;
+    width: 195px;
+    color: white;
+}
+
+#companys {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.greenbackground {
+    background-color: #B9FF66;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.whitebackground {
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.mainTitle {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.mainTitleSpan {
+    font-size: 40px;
+    height: 50px;
+    font-weight: 500;
+}
+
+.freeProposalCard {
+    border: 0;
+    padding: 0 60px;
+    background-color: #F3F3F3;
+    margin-top: 100px;
+    border-radius: 45px;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+}
+
+.freeProposalInfo {
+    width: 50%;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.freeProposalInfo p {
+    margin: 0;
+}
+.freeProposalButton {
+    background-color: #191A23;
+    width: 218px;
+    color: white;
+}
+.grid2 {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    gap: 40px 40px;
+}
+
+.workingProcess {
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.card {
+    padding: 50px;
+    border-radius: 45px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border-top: 1px solid var(--Dark, #191A23);
+    border-right: 1px solid var(--Dark, #191A23);
+    border-left: 1px solid var(--Dark, #191A23);
+    border-bottom: 8px solid var(--Dark, #191A23);
+}
+
+.caseStudies {
+    border-radius: 45px;
+    border: 0;
+    background-color: #191A23;
+    margin-top: 85px;
+    display: flex;
+    padding: 70px 60px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.selectedCard {
+    padding: 50px;
+    border-radius: 45px;
+    flex-direction: column;
+    background-color: #B9FF66;
+    display: flex;
+    border-top: 1px solid var(--Dark, #191A23);
+    border-right: 1px solid var(--Dark, #191A23);
+    border-left: 1px solid var(--Dark, #191A23);
+    border-bottom: 8px solid var(--Dark, #191A23);
+}
+
+.selectedCardContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardDiv {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 93px;
+}
+
+.learnMoreDiv {
+    justify-content: left;
+    align-items: center;
+    display: flex;
+}
+
+.button {
+    padding: 20px 35px;
+    border-radius: 14px;
+
+
+}
+
+.verticalLine {
+    width: 1px;
+    height: 180px;
+    margin-left: 64px;
+    margin-right: 64px;
+    background-color: white;
+}
+
+.grid3 {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    gap: 40px 40px;
+}
+
+.teamCard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.teamCardDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.teamName {
+    align-self: end
+}
+
+.teamName p {
+    margin: 0;
+}
+
+.horizontalLine {
+    width: 100%;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    border: 1px black solid
+}
+
+.contctUsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-left: 100px;
+    border-radius: 45px;
+    background-color: #F3F3F3;
+}
+
+input[type='radio'] {
+    accent-color: #B9FF66;
+
+    width: 60px;
+    height: 2em;
+
+
+}
+
+
+input[type='text'] {
+    padding: 18px 30px;
+    border-radius: 14px;
+    width: 400px;
+    border: 1px black solid;
+}
+
+input[type='email'] {
+    padding: 18px 30px;
+    border-radius: 14px;
+    width: 400px;
+    border: 1px black solid;
+}
+
+textarea {
+    padding: 18px 30px;
+    border-radius: 14px;
+    width: 400px;
+    resize: none;
+    border: 1px black solid;
+}
+
+footer {
+    margin-top: 140px;
+    padding: 60px 55px;
+    background-color: #191A23;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerNavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+
+.footerNavbarTaps {
+    gap: 40px;
+    display: flex;
+
+}
+
+.footerNavbarTaps p {
+    color: white;
+    display: flex;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.footerSocial {
+    display: flex;
+    gap: 20px;
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footerInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerInfo div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerInfo div span {
+    color: white;
+}
+
+.subscribeToNewsDiv {
+    background: #292A32;
+    border-radius: 14px;
+    padding: 58px 40px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#subscribeEmail {
+    background-color: transparent;
+    padding: 22px 35px;
+    border-radius: 14px;
+    border: 1px white solid;
+    width: 300px;
+}
+
+#subscribeButton {
+    background-color: #B9FF66;
+    padding: 20px 35px;
+    width: 250px;
+    border-radius: 14px;
+    border: 0;
+}
+
+.whiteHorizontalLine {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px white solid
+}
+
+.policyDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.policyDiv span {
+    color: white;
+}
